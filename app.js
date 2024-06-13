@@ -25,7 +25,7 @@ let harcamaListesi=[]
 
     tarih: tarih.value,
     miktar: miktarInput.value,
-  
+    harcamaSebebi: harcamaSebeb.value,
     id: new Date().getTime()
 
  }
@@ -38,5 +38,6 @@ let harcamaListesi=[]
    })
 
 
-
-   localStorage.setItem("fatih",10)
+   harcamaTablosunaEkle(yeniHarcama);
+   mainArea.reset();
+   tarih.value = formattedDate;
