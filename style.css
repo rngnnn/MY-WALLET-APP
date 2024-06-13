@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.mainArea{
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.ustSıra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+.ortaSıra{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: -2rem auto;
+
+}
+.gelir{
+    width: 100%;
+    margin: 2rem auto;
+}
+.btn-success{
+    margin-left: 5px;
+}
+
+#harcama-tablosu{
+
+    width: 80%;
+    margin: 0 auto;
+
+   
+}
+
+#sonuc-tablosu{
+
+    margin-right: 10%;
+}
