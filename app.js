@@ -11,6 +11,7 @@ const kalanTd = document.getElementById("kalan")
 
 //^ variables
 let gelirler = 0
+let harcamaListesi=[]
 
 
 //^ Harcama Formu
