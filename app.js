@@ -36,7 +36,9 @@ ekleFormu.addEventListener("submit", (e)=>{
 
 window.addEventListener("load",()=>{
     gelirler = Number(localStorage.getItem("gelirler")) || 0
-    gelirinizTd.textContent = new Intl.NumberFormat().format(gelirler)  
+    gelirinizTd.textContent = new Intl.NumberFormat().format(gelirler)
+    tarihInput.valueAsDate=new Date()  
+
 })
 
 
@@ -56,4 +58,5 @@ harcamaListesi.push(yeniHarcama)
 
     harcamaFormu.reset()
     tarihInput.valueAsDate=new Date()
+    localStorage.setItem("harcamalar",JSON.stringify(harcamaListesi))
 })
