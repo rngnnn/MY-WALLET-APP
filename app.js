@@ -50,5 +50,10 @@ harcamaFormu.addEventListener("submit", (e)=>{
       miktar:harcamaInput.value,
       alan:harcamaAlaniInput.value,
     }
-    
+
+harcamaListesi.push(yeniHarcama)
+
+
+    harcamaFormu.reset()
+    tarihInput.valueAsDate=new Date()
 })
