@@ -12,6 +12,16 @@ const kalanTd = document.getElementById("kalan")
 //^ variables
 let gelirler = 0
 
+
+
+//? Haracama Formu
+
+const haracamaFormu=document.getElementById("harcama-formu")
+const harcamaAlaniInput=document.getElementById("harcama-alani")
+const tarihInput=document.getElementById("tarih")
+const harcamaInput=document.getElementById("miktar")
+
+
 //? Ekle Formu
 
 ekleFormu.addEventListener("submit", (e)=>{
